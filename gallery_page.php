@@ -27,7 +27,7 @@
 
 
 
-<?php require "php/gallery1.php" ?>
+<?php require "php/gallery.php" ?>
 
 
 <!-- SCRIPT -->

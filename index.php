@@ -35,24 +35,24 @@
     </ul>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="/img/4-1.jpg" alt="Los Angeles" width="100%" height="500" >
+        <img src="/img/slider/1.jpg" alt="DOLCE" width="100%" height="500" >
         <div class="carousel-caption">
-          <h3>Los Angeles</h3>
-          <p>We had such a great time in LA!</p>
+          <h3></h3>
+          <p></p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/img/4-1.jpg" alt="Chicago" width="100%" height="500">
+        <img src="/img/slider/2.jpg" alt="DOLCE" width="100%" height="500">
         <div class="carousel-caption">
-          <h3>Chicago</h3>
-          <p>Thank you, Chicago!</p>
+          <h3></h3>
+          <p></p>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="/img/4-1.jpg" alt="New York" width="100%" height="500">
+        <img src="/img/slider/3.jpg" alt="DOLCE" width="100%" height="500">
         <div class="carousel-caption">
-          <h3>New York</h3>
-          <p>We love the Big Apple!</p>
+          <h3></h3>
+          <p></p>
         </div>
       </div>
     </div>
@@ -67,8 +67,8 @@
 
 <!-- JUMBOTRON -->
 <div class="jumbotron">
-  <h1>Bootstrap Tutorial</h1>
-  <p>Bootstrap is the most popular HTML, CSS...</p>
+  <h1></h1>
+  <p></p>
 </div>
 
 <?php require "php/blog.php" ?>
@@ -76,9 +76,9 @@
 <!-- CONTENT -->
 <div class="container-fluid">
   <div class="row">
-    <div class="col" style="background-color:lavender;">.col</div>
-    <div class="col" style="background-color:orange;">.col</div>
-    <div class="col" style="background-color:lavender;">.col</div>
+    <div class="col" style="background-color:lavender;"></div>
+    <div class="col" style="background-color:orange;"></div>
+    <div class="col" style="background-color:lavender;"></div>
   </div>
 </div>
 

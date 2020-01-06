@@ -1,18 +1,18 @@
-<div class="wrapper">
-		<h1 class="title">jquery-smartphoto.js</h1>
-		<div class="masonry">
+<div class="row">
+	<?php
+		for ($i=0; $i < 28 ; $i++):
+	?>
 
-			<div class="brick">
-				<a href="/img/4-1.jpg" class="js-img-viwer" data-caption="PHOT" data-id="raion">
-					<img src="/img/4-1.jpg" width="360"/>
-				</a>
-			</div>
+	<div class="col-12 col-md-3">
 
-      <div class="brick">
-				<a href="/img/4-1.jpg" class="js-img-viwer" data-caption="PHOT" data-id="raion">
-					<img src="/img/4-1.jpg" width="360"/>
-				</a>
-			</div>
+				<div class="card mb-7 shadow shadow-hover lift">
+					<a href="img/1/<?php echo $i+1?>_1.jpg" class="js-img-viwer" data-caption="PHOT" data-id="raion">
+						<img src="/img/1/<?php echo $i+1?>_1.jpg" height="360">
+					</a>
+				</div>
+
 
 		</div>
+
+	<?php endfor; ?>
 </div>

@@ -18,7 +18,7 @@
 
 <!-- LOOP -->
           <?php
-            for ($i=0; $i < 6 ; $i++):
+            for ($i=0; $i < 3 ; $i++):
           ?>
 
           <div class="col-12 col-md-4">
@@ -27,8 +27,8 @@
             <div class="card mb-7 shadow shadow-hover lift">
 
               <!-- Image -->
-              <a href="blog-post.html">
-                <img src="/img/4-1.jpg" alt="..." class="card-img-top">
+              <a href="/gallery_page<?php echo $i+1?>.php">
+                <img src="/img/prew/<?php echo $i+1?>.jpg" alt="..." class="card-img-top" height="500">
               </a>
 
               <!-- Body -->
@@ -36,13 +36,13 @@
 
                 <!-- Time -->
                 <p class="mb-3 font-size-xs">
-                  <a class="text-muted" href="blog.html">Fashion / Jun 20, 2019</a>
+                  <!-- <a class="text-muted" href="blog.html">Fashion / Jun 20, 2019</a> -->
                 </p>
 
                 <!-- Heading -->
                 <h6 class="mb-0">
                   <a class="text-body" href="blog-post.html">
-                    Us yielding Fish sea night night the said him two
+                    NAME
                   </a>
                 </h6>
 
@@ -62,7 +62,7 @@
 
             <!-- Link -->
             <div class="mt-7 text-center">
-              <a class="link-underline" href="blog.html">Discover more</a>
+              <a class="link-underline" href="blog.html"></a>
             </div>
 
           </div>

@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-xl navbar-light ">
-      <div class="container">
+      <div class="container ">
 
         <!-- Brand_MOBILE -->
         <a class="navbar-brand d-xl-none" href="index.php">
@@ -15,7 +15,7 @@
         <div class="collapse navbar-collapse" id="navbarClassicCollapse">
 
           <!-- Nav -->
-          <ul class="navbar-nav">
+          <ul class="navbar-nav ">
             <li class="nav-item dropdown">
 
               <!-- Toggle -->
